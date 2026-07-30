@@ -2,13 +2,13 @@
 
 <escola>
 
-<aluno matricula="202501" curso=Informática>
+<aluno matricula="202501" curso="Informática">
 
 <nome>Lucas e Ana</nome>
 
 <disciplinas>
 
-<disciplina>Banco de Dados<disciplica>
+<disciplina>Banco de Dados<disciplina>
 
 <disciplina>Lógica de Programação</disciplina>
 

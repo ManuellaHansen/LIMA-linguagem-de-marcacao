@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(198, 232, 231);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+div {
+    background-color: rgb(144, 187, 185);
+}
+li{
+    color: rgb(215, 241, 123);
+}

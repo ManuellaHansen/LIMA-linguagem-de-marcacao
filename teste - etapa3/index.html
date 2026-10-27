@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Manuella</td>
+            <td>17</td>
+            <td>Sumaré</td>
+        </tr>
+    </table>
+</body>
+    <h2>Lista de produtos</h2>
+        <table border="1">
+        <tr>
+            <th>Modelo</th>
+            <th>Processador</th>
+            <th>Placa de vídeo</th>
+            <th>Memória RAM</th>
+            <th>Preço no PIX</th>
+        </tr>
+        <tr>
+            <td>Setup Entry</td>
+            <td>Intel i5/Ryzen</td>
+            <td>GTX 1650 4GB</td>
+            <td>16GB DDR4</td>
+            <td>R$ 3.499,00</td>
+        </tr>
+        <tr>
+            <td>Setup Gamer</td>
+            <td>Intel i7/Ryzen 7</td>
+            <td>RTX 3060 12GB</td>
+            <td>32GB DDR4</td>
+            <td>R$ 6.999,00</td>
+        </tr>
+        <tr>
+            <td>Setup Ultra</td>
+            <td>Intel i9/Ryzen 9</td>
+            <td>RTX 4090 24GB</td>
+            <td>64GB DDR5</td>
+            <td>R$ 14.999,00</td>
+        </tr>
+        </table>
+        <fieldset>
+            <legend>Dados do cliente</legend>
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone"><br><br>
+                <input type="submit" value="Enviar">
+        </fieldset>
+        <fieldset>
+            <legend>Configuração de hardware</legend>
+            <form action="">
+                <label for="gpu">Escolha sua placa de vídeo:</label>
+                <p>
+            <select name="gpu" id="gpu" required>
+            <option value="gtx1650">NVIDIA GTX 1060</option>
+            <option value="rtx3060">NVIDIA GTX 1070</option>
+                <option value="rtx4090">NVIDIA GTX 1080</option>
+                </select>
+            </p>
+            <p>
+                <strong>Objetivo da máquina:</strong></br>
+            <label for="nome"></label>
+            <input type="radio" name="jogos" id="jogos" value="jogos" checked>
+                <label for="jogos">Jogos</label><br>
+                <input type="radio" name="streaming" id="objetivo" value="streaming">
+                <label for="streaming">Streaming</label><br>
+                <input type="radio" name="trabalho" id="objetivo" value="trabalho">
+                <label for="trabalho">Edição de vídeos</label><br>
+            </p>
+        </fieldset>
+</body>
+</html>

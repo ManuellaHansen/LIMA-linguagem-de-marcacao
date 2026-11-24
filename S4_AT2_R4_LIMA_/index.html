@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Artigos Esportivos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #baffb6 !important;
+            text-align: center;
+        }
+
+        ul, ol, dl {
+            list-style-position: inside;
+            padding-left: 0;
+        }
+
+        .foto-produto {
+            margin: 15px auto !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1 style=" background-color: rgb(122, 233, 32); text-align:center;">PixelGear Sports Store</h1>
+        <p style="background-color: #3ac785; color: rgb(255, 255, 255); text-align: center;">Artigos Esportivos e Equipamentos de Performance</p>
+    </header>
+
+    <!-- Sobre a loja -->
+    <section>
+        <h2>Sobre a Loja</h2>
+        <p>A <strong>PixelGear Sports</strong> é especializada em <em>Artigos Esportivos</em> e acessórios de alta performance.</p>
+
+        <p><strong>Missão:</strong> Entregar os melhores equipamentos esportivos com preço justo.</p>
+        <p><strong>Visão:</strong> Ser a loja preferida dos atletas.</p>
+        <p><strong>Valores:</strong> Qualidade, honestidade e paixão pelo esporte.</p>
+    </section>
+
+    <!-- Produto em Destaque -->
+    <section>
+        <h2>Destaque: Tênis Corrida Carbon-Pro</h2>
+        
+        <article>
+            <p>Tênis de alta performance para corridas de rua e maratonas.</p>
+
+            <!-- Foto do produto -->
+            <img src="https://http2.mlstatic.com/D_NQ_NP_671696-CBT110222031033_042026-O-tenis-de-corrida-pro-speed-30-carbon-board-masculinos-sport.webp" 
+                alt="Foto do Tênis de Corrida Carbon-Pro" 
+                class="foto-produto">
+
+            <!-- Especificações (Lista não numerada <ul> com lista aninhada) -->
+            <h3 style="background-color: #3ac785; color: rgb(255, 255, 255); padding: 10px;">Especificações:</h3>
+            <ul>
+                <li><b>Cabedal:</b> Malha respirável Engineered Mesh</li>
+                <li><b>Placa Interna:</b> Fibra de Carbono <i>100%</i></li>
+                <li><b>Amortecimento:</b> Espuma Nitro-EVA
+                    <!-- Lista aninhada para subcategorias/detalhes -->
+                    <ul>
+                        <li>Drop de 8mm para maior propulsão</li>
+                        <li>Absorção de impacto em 3 camadas</li>
+                    </ul>
+                </li>
+                <li><b>Peso:</b> 215g (Tam. 40)</li>
+                <li><b>Impermeabilidade:</b> Tratamento repelente H<sub>2</sub>O</li>
+            </ul>
+
+            <!-- Categorias e Subcategorias (Lista não numerada <ul> aninhada) -->
+            <h3 style="background-color: #3ac785; color: rgb(255, 250, 250); padding: 10px;">Categorias e Subcategorias Disponíveis:</h3>
+            <ul>
+                <li><b>Futebol e Futsal</b>
+                    <ul>
+                        <li>Chuteiras de Campo e Society</li>
+                        <li>Bolas Oficiais Termofusionadas</li>
+                        <li>Luvas de Goleiro Profissionais</li>
+                    </ul>
+                </li>
+                <li><b>Corrida e Atletismo</b>
+                    <ul>
+                        <li>Tênis de Performance e Treino</li>
+                        <li>Relógios GPS e Monitores Cardíacos</li>
+                    </ul>
+                </li>
+                <li><b>Musculação e Funcional</b>
+                    <ul>
+                        <li>Halteres, Kettlebells e Anilhas</li>
+                        <li>Faixas Elásticas e Colchonetes</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Etapas de Preparação (Lista numerada <ol>) -->
+            <h3 style="background-color: #3ac785; color: white; padding: 10px;">Etapas de Preparação e Envio:</h3>
+            <ol>
+                <li>Inspeção de qualidade e numeração do produto.</li>
+                <li>Aplicação de impermeabilizante protetor.</li>
+                <li>Conferência dos acessórios e palmilhas extras.</li>
+                <li>Higienização e selagem térmica.</li>
+                <li>Embalagem reforçada para envio.</li>
+            </ol>
+
+            <!-- Glossário Técnico (Lista de Definição <dl>, <dt>, <dd>) -->
+            <h3 style="background-color: #3ac785; color: white; padding: 10px;">Glossário Técnico Esportivo:</h3>
+            <dl>
+                <dt><b>Dry-Fit:</b></dt>
+                <dd>Tecido sintético que afasta o suor da pele e acelera a evaporação durante o exercício.</dd>
+                <dt><b>Drop do Tênis:</b></dt>
+                <dd>Diferença de altura entre o calcanhar e a ponta dos pés, influenciando o tipo de pisada.</dd>
+                <dt><b>Termofusão:</b></dt>
+                <dd>Tecnologia de vedação sem costuras que impede a absorção de água em bolas esportivas.</dd>
+            </dl>
+
+            <!-- Preço -->
+            <p>
+                De: <del>R$ 999,00</del><br>
+                Por: <span class="preco"><strong>R$ 799,00 à vista</strong></span> (<b>20% OFF</b>)
+            </p>
+            <!-- Botão para contato via whatsapp com a loja -->
+            <a href="https://wa.me/5500000000000" target="_blank" class="btn-whats">Acesso ao WhatsApp</a>
+
+            <!-- Tabela Principal de Produtos (com thead, tbody, tfoot, rowspan, colspan, atributos HTML e imagem de fundo) -->
+            <h2>Lista de produtos</h2>
+            <table border="1" width="100%" cellpadding="8" cellspacing="0" class="tabela-esportes">
+                <thead>
+                    <tr class="cabecalho-tabela" height="40">
+                        <th width="15%">Categoria</th>
+                        <th width="20%">Produto</th>
+                        <th width="35%">Descrição Técnica</th>
+                        <th width="15%">Disponibilidade</th>
+                        <th width="15%">Preço no PIX</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Mesclagem vertical (rowspan="2") agrupando produtos de Corrida -->
+                    <tr>
+                        <td rowspan="2" align="center" valign="middle" class="celula-destaque-img">
+                            <strong>Corrida</strong>
+                        </td>
+                        <td align="center" valign="middle">Tênis Carbon-Pro</td>
+                        <td align="center" valign="top">Placa de carbono, malha respirável, 215g</td>
+                        <td align="center" valign="middle">Em estoque</td>
+                        <td align="center" valign="middle">R$ 799,00</td>
+                    </tr>
+                    <tr class="linha-alternada">
+                        <td align="center" valign="middle">Relógio GPS Run</td>
+                        <td align="center" valign="top">Monitor cardíaco, GPS integrado, 5 ATM</td>
+                        <td align="center" valign="middle">Em estoque</td>
+                        <td align="center" valign="middle">R$ 1.199,00</td>
+                    </tr>
+                    <!-- Mesclagem vertical (rowspan="2") agrupando produtos de Futebol -->
+                    <tr>
+                        <td rowspan="2" align="center" valign="middle" class="celula-categoria">
+                            <strong>Futebol</strong>
+                        </td>
+                        <td align="center" valign="middle">Chuteira Campo Pro</td>
+                        <td align="center" valign="top">Microfibra leve, travas em TPU, 205g</td>
+                        <td align="center" valign="middle">Últimas unid.</td>
+                        <td align="center" valign="middle">R$ 549,00</td>
+                    </tr>
+                    <tr class="linha-alternada">
+                        <td align="center" valign="middle">Bola Oficial Match</td>
+                        <td align="center" valign="top">Termofusionada, câmara butyl, padrão FIFA</td>
+                        <td align="center" valign="middle">Em estoque</td>
+                        <td align="center" valign="middle">R$ 289,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="rodape-tabela" height="30">
+                        <!-- Mesclagem horizontal (colspan="5") -->
+                        <td colspan="5" align="center" valign="middle">
+                            <em>* Garantia de 90 dias contra defeitos de fabricação.</em>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <!-- Tabela Encadeada (Tabela dentro de Tabela para Kits Esportivos) -->
+            <h2>Kits Esportivos (Tabela Encadeada)</h2>
+            <table border="1" width="100%" cellpadding="8" cellspacing="0" class="tabela-esportes">
+                <thead>
+                    <tr class="cabecalho-tabela" height="35">
+                        <th width="25%">Kit</th>
+                        <th width="55%">Itens Inclusos</th>
+                        <th width="20%">Preço no PIX</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="center" valign="middle"><strong>Kit Treino Completo</strong></td>
+                        <td align="center" valign="middle">
+                            <!-- Tabela interna encadeada dentro da célula <td> -->
+                            <table border="1" width="100%" cellpadding="5" cellspacing="0" class="tabela-interna">
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Detalhe</th>
+                                    <th>Qtd</th>
+                                </tr>
+                                <tr>
+                                    <td align="center">Camiseta Dry-Fit</td>
+                                    <td align="center">Proteção UV50+</td>
+                                    <td align="center">2</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">Garrafa Squeeze</td>
+                                    <td align="center">Térmica 750ml</td>
+                                    <td align="center">1</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td align="center" valign="middle">R$ 189,00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Formulário: Dados do cliente -->
+            <form action="">
+                <fieldset>
+                    <legend>Dados do cliente</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone"><br><br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+
+            <br>
+
+            <!-- Formulário: Configuração de equipamento esportivo -->
+            <form action="">
+                <fieldset>
+                    <legend>Configuração de equipamento</legend>
+                    <label for="produto">Escolha seu artigo esportivo:</label>
+                    <p>
+                        <select name="produto" id="produto" required>
+                            <option value="tenis">Tênis Corrida Carbon-Pro</option>
+                            <option value="chuteira">Chuteira Campo Pro</option>
+                            <option value="bola">Bola Oficial Match</option>
+                        </select>
+                    </p>
+                    <p>
+                        <strong>Modalidade principal:</strong><br>
+                        <input type="radio" name="modalidade" id="corrida" value="corrida" checked>
+                        <label for="corrida">Corrida</label><br>
+                        <input type="radio" name="modalidade" id="futebol" value="futebol">
+                        <label for="futebol">Futebol</label><br>
+                        <input type="radio" name="modalidade" id="academia" value="academia">
+                        <label for="academia">Academia / Treino</label><br>
+                    </p>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2026 PixelGear Sports Store</p>
+    </footer>
+
+</body>
+</html>
